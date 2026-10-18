@@ -132,3 +132,5 @@ Any name containing `key` and easy to search would’ve been a good fit, but her
 [supported host layouts]:      include/aekeynox/aliases#layout-aliases
 [proposed 1dk adaptations]:    include/aekeynox/extra_layers#1dk-adaptations
 [supported layout emulations]: include/aekeynox/emulations#layout-emulations
+
+<!-- release demo -->
