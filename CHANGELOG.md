@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0-beta.2](https://github.com/severindupouy/zmk-config-aekeynox/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2026-10-18)
+
+
+### Miscellaneous Chores
+
+* release 1.2.0-beta.2 ([53abf91](https://github.com/severindupouy/zmk-config-aekeynox/commit/53abf91c25130c27c25ef50c098a8abcedb6a11b))
+
 ## [1.2.0-beta.1](https://github.com/severindupouy/zmk-config-aekeynox/compare/v1.1.0...v1.2.0-beta.1) (2026-10-18)
 
 
