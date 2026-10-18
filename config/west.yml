@@ -29,7 +29,7 @@ manifest:
       # More info on the changes present can be found on the fork’s README page.
     - name: zmk
       remote: NuclearSquid
-      revision: aekeynox
+      revision: fed598704b93f470ab195a34c9be6f119266802e
       import: app/west.yml
 
       ###
@@ -39,13 +39,13 @@ manifest:
       # Safely wraps a dead key on the host layout
     - name: zmk-behavior-dead-key
       remote: NuclearSquid
-      revision: aekeynox
+      revision: 2e4810fad25b351a3b1b2e02e5406d6886a6835a
 
       # Wraps a behavior to hold a selection of active modifiers for as long
       # as that key is held
     - name: zmk-behavior-mod-hold
       remote: NuclearSquid
-      revision: aekeynox
+      revision: b2f70176348687f0cc4209ef897d8389c822cc49
 
       ###
       # Community keyboards (not officially supported by ZMK)
@@ -55,7 +55,7 @@ manifest:
       # Quacken Zero: unibody ProMicro-compatible shield
     - name: zmk-keyboard-quacken
       remote: NuclearSquid
-      revision: aekeynox
+      revision: 01d816fb4540ce9aa88860f8f2a6405a13f5407d
 
       # Totem: split XIAO-compatible shield
       # A fork of `GEIGEIGEIST`'s ZMK Totem module, to migrate it to ZMK main
@@ -68,7 +68,7 @@ manifest:
       # https://github.com/OneDeadKey/zmk-config-aekeynox/pull/101
     - name: temper-zmk-config
       remote: NuclearSquid
-      revision: aekeynox
+      revision: 10ac213b75a8893d5356e777a08a70f906d4f6cb
 
       # Go60: split nrf52840-based board
       # A fork of MoErgo's ZMK go60 module, to migrate it to ZMK main
