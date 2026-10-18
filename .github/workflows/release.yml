@@ -35,6 +35,7 @@ jobs:
         run: |
           pip install west
           west init -l aekeynox/config
+          cd aekeynox # west workspace: parent of the manifest directory
           west update --narrow -o=--depth=1
           west manifest --freeze > manifest.lock.yml
           gh release upload "${{ steps.release.outputs.tag_name }}" manifest.lock.yml -R "${{ github.repository }}"
